@@ -11,7 +11,7 @@
         "william-jacob": "William Jacob",
         "law-rui-xi": "Law Rui Xi",
         "ong-xiao-wei": "Ong Xiao Wei",
-        "james-doe": "James Doe"
+        "kirthigha-shanmuganantham": "Kirthigha Shanmuganantham"
       },
       "headingKeywords": {}
     },
@@ -143,6 +143,14 @@
       "title": "John Doe's Project Portfolio Page",
       "headings": {
         "project-addressbook-level-3": "Project: AddressBook Level 3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/kayabuttertoastt.md",
+      "title": "Kirthigha Shanmuganantham's Project Portfolio Page",
+      "headings": {
+        "project-nusearch": "Project: NUSearch"
       },
       "headingKeywords": {}
     },

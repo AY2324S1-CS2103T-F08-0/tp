@@ -200,13 +200,13 @@ with(this){return _c('h3',{attrs:{"id":"product-scope"}},[_v("Product scope"),_c
 with(this){return _c('p',[_c('strong',[_v("Target user profile")]),_v(":")])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("who wants to consolidate and access profiles of professors, teaching assistants (TAs), and fellow classmates easily")]),_v(" "),_c('li',[_v("prefer desktop apps over other types")]),_v(" "),_c('li',[_v("can type fast")]),_v(" "),_c('li',[_v("prefers typing to mouse interactions")]),_v(" "),_c('li',[_v("is reasonably comfortable using CLI apps")])])}
+with(this){return _c('ul',[_c('li',[_v("who wants to consolidate and access profiles of professors, teaching assistants (TAs), and their fellow classmates easily")]),_v(" "),_c('li',[_v("who are lazy to navigate to numerous NUS websites for academic resources")]),_v(" "),_c('li',[_v("prefer desktop apps over other types")]),_v(" "),_c('li',[_v("can type fast")]),_v(" "),_c('li',[_v("prefers typing to mouse interactions")]),_v(" "),_c('li',[_v("is reasonably comfortable using CLI apps")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Value proposition")]),_v(":")])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("Helps students to consolidate profiles of professors, teaching assistants (TAs), and fellow classmates, within a single platform")]),_v(" "),_c('li',[_v("Compact and easy to navigate")]),_v(" "),_c('li',[_v("Students can save time and energy that would otherwise be spent searching for scattered and hard-to-access essential academic contacts")]),_v(" "),_c('li',[_v("Features an intuitive and user-friendly interface, making it convenient for users to quickly find the information they need")])])}
+with(this){return _c('ul',[_c('li',[_v("Helps students to consolidate profiles of professors, teaching assistants (TAs), and their fellow classmates, within a single platform")]),_v(" "),_c('li',[_v("Compact and easy to navigate")]),_v(" "),_c('li',[_v("Students can save time and energy that would otherwise be spent searching for scattered and hard-to-access essential college information")]),_v(" "),_c('li',[_v("Features an intuitive and user-friendly interface, making it convenient for users to quickly find the information they need")])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"user-stories"}},[_v("User stories"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#user-stories","onclick":"event.stopPropagation()"}})])}
@@ -332,6 +332,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Fri, 6 Oct 2023, 15:43:37 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Fri, 13 Oct 2023, 7:52:25 GMT+8]")])])])}
 }];
   

@@ -2,7 +2,6 @@ package seedu.address.logic.commands;
 
 import static java.util.Objects.requireNonNull;
 
-import java.awt.color.CMMException;
 import java.util.List;
 
 import seedu.address.commons.core.index.Index;
@@ -17,7 +16,7 @@ import seedu.address.model.person.Person;
  */
 public class FavouriteCommand extends Command {
 
-    public static final String COMMAND_WORD= "fav";
+    public static final String COMMAND_WORD = "fav";
 
     public static final String MESSAGE_USAGE = COMMAND_WORD
             + ": Favourites the person identified by the index number used in the displayed person list. \n"

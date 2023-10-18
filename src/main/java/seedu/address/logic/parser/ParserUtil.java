@@ -9,11 +9,11 @@ import java.util.Set;
 import seedu.address.commons.core.index.Index;
 import seedu.address.commons.util.StringUtil;
 import seedu.address.logic.parser.exceptions.ParseException;
-import seedu.address.model.person.Contact;
-import seedu.address.model.person.Course;
+import seedu.address.model.person.Address;
+import seedu.address.model.person.Email;
 import seedu.address.model.person.Name;
-import seedu.address.model.person.Role;
-import seedu.address.model.person.Tutorial;
+import seedu.address.model.person.Phone;
+import seedu.address.model.tag.Tag;
 
 /**
  * Contains utility methods used for parsing strings in the various *Parser classes.
@@ -51,135 +51,74 @@ public class ParserUtil {
     }
 
     /**
-     * Parses a {@code String role} into a {@code Role}.
+     * Parses a {@code String phone} into a {@code Phone}.
      * Leading and trailing whitespaces will be trimmed.
      *
-     * @throws ParseException if the given {@code role} is invalid.
+     * @throws ParseException if the given {@code phone} is invalid.
      */
-    public static Role parseRole(String role) throws ParseException {
-        requireNonNull(role);
-        String trimmedRole = role.trim();
-        if (!Role.isValidRoleType(trimmedRole)) {
-            throw new ParseException(Role.MESSAGE_CONSTRAINTS);
+    public static Phone parsePhone(String phone) throws ParseException {
+        requireNonNull(phone);
+        String trimmedPhone = phone.trim();
+        if (!Phone.isValidPhone(trimmedPhone)) {
+            throw new ParseException(Phone.MESSAGE_CONSTRAINTS);
         }
-        return new Role(trimmedRole);
+        return new Phone(trimmedPhone);
     }
 
     /**
-     * Parses {@code Collection<String> roles} into a {@code Set<Role>}.
-     */
-    public static Set<Role> parseRoles(Collection<String> roles) throws ParseException {
-        requireNonNull(roles);
-        final Set<Role> roleSet = new HashSet<>();
-        for (String roleName : roles) {
-            roleSet.add(parseRole(roleName));
-        }
-        return roleSet;
-    }
-
-    /**
-     * Parses a {@code String contact} into a {@code Contact}.
+     * Parses a {@code String address} into an {@code Address}.
      * Leading and trailing whitespaces will be trimmed.
      *
-     * @throws ParseException if the given {@code contact} is invalid.
+     * @throws ParseException if the given {@code address} is invalid.
      */
-    public static Contact parseContact(String contact) throws ParseException {
-        requireNonNull(contact);
-        String trimmedContact = contact.trim();
-        if (!Contact.isValidContactName(trimmedContact)) {
-            throw new ParseException(Contact.MESSAGE_CONSTRAINTS);
+    public static Address parseAddress(String address) throws ParseException {
+        requireNonNull(address);
+        String trimmedAddress = address.trim();
+        if (!Address.isValidAddress(trimmedAddress)) {
+            throw new ParseException(Address.MESSAGE_CONSTRAINTS);
         }
-        return new Contact(trimmedContact);
+        return new Address(trimmedAddress);
     }
 
     /**
-     * Parses {@code Collection<String> contacts} into a {@code Set<Contact>}.
-     */
-    public static Set<Contact> parseContacts(Collection<String> contacts) throws ParseException {
-        requireNonNull(contacts);
-        final Set<Contact> contactSet = new HashSet<>();
-        for (String contactName : contacts) {
-            contactSet.add(parseContact(contactName));
-        }
-        return contactSet;
-    }
-
-    /**
-     * Parses a {@code String course} into a {@code Course}.
+     * Parses a {@code String email} into an {@code Email}.
      * Leading and trailing whitespaces will be trimmed.
      *
-     * @throws ParseException if the given {@code course} is invalid.
+     * @throws ParseException if the given {@code email} is invalid.
      */
-    public static Course parseCourse(String course) throws ParseException {
-        requireNonNull(course);
-        String trimmedCourse = course.trim();
-        if (!Course.isValidCourseName(trimmedCourse)) {
-            throw new ParseException(Course.MESSAGE_CONSTRAINTS);
+    public static Email parseEmail(String email) throws ParseException {
+        requireNonNull(email);
+        String trimmedEmail = email.trim();
+        if (!Email.isValidEmail(trimmedEmail)) {
+            throw new ParseException(Email.MESSAGE_CONSTRAINTS);
         }
-        return new Course(trimmedCourse);
+        return new Email(trimmedEmail);
     }
 
     /**
-     * Parses {@code Collection<String> courses} into a {@code Set<Course>}.
-     */
-    public static Set<Course> parseCourses(Collection<String> courses) throws ParseException {
-        requireNonNull(courses);
-        final Set<Course> courseSet = new HashSet<>();
-        for (String courseName : courses) {
-            courseSet.add(parseCourse(courseName));
-        }
-        return courseSet;
-    }
-
-    /**
-     * Parses a {@code String tutorial} into a {@code Tutorial}.
+     * Parses a {@code String tag} into a {@code Tag}.
      * Leading and trailing whitespaces will be trimmed.
      *
-     * @throws ParseException if the given {@code tutorial} is invalid.
+     * @throws ParseException if the given {@code tag} is invalid.
      */
-    public static Tutorial parseTutorial(Set<Course> courseList, String tutorial) throws ParseException {
-        requireNonNull(tutorial);
-        String trimmedTutorial = tutorial.trim();
-        if (!Tutorial.isValidTutorialString(trimmedTutorial)) {
-            throw new ParseException(Tutorial.MESSAGE_CONSTRAINTS);
+    public static Tag parseTag(String tag) throws ParseException {
+        requireNonNull(tag);
+        String trimmedTag = tag.trim();
+        if (!Tag.isValidTagName(trimmedTag)) {
+            throw new ParseException(Tag.MESSAGE_CONSTRAINTS);
         }
-
-        Course relevantCourse = null;
-        String[] courseTutorialName = Tutorial.splitCourseTutorialName(trimmedTutorial);
-        if (courseTutorialName == null || courseTutorialName.length <= 0) {
-            throw new ParseException(Tutorial.MESSAGE_CONSTRAINTS);
-        }
-
-        for (Course course : courseList) {
-            if (course.courseName == courseTutorialName[0]) {
-                relevantCourse = course;
-            }
-        }
-        if (relevantCourse == null) {
-            String givenCoursesString = courseList.stream()
-                .map((course) -> course.courseName)
-                .reduce(
-                        "", (current, next) -> current + next.toString() + " "
-                       );
-            givenCoursesString = String.format("[ %s]", givenCoursesString);
-            throw new ParseException(String.format(
-                        Tutorial.INVALID_COURSE_MESSAGE, courseTutorialName[0], givenCoursesString
-                        ));
-        }
-
-        return new Tutorial(relevantCourse, trimmedTutorial);
+        return new Tag(trimmedTag);
     }
 
     /**
-     * Parses {@code Collection<String> tutorials} into a {@code Set<Tutorial>}.
+     * Parses {@code Collection<String> tags} into a {@code Set<Tag>}.
      */
-    public static Set<Tutorial> parseTutorials(Set<Course> courseList,
-            Collection<String> tutorials) throws ParseException {
-        requireNonNull(tutorials);
-        final Set<Tutorial> tutorialSet = new HashSet<>();
-        for (String tutorialName : tutorials) {
-            tutorialSet.add(parseTutorial(courseList, tutorialName));
+    public static Set<Tag> parseTags(Collection<String> tags) throws ParseException {
+        requireNonNull(tags);
+        final Set<Tag> tagSet = new HashSet<>();
+        for (String tagName : tags) {
+            tagSet.add(parseTag(tagName));
         }
-        return tutorialSet;
+        return tagSet;
     }
 }

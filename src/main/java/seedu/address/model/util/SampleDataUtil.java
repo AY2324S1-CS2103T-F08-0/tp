@@ -40,37 +40,37 @@ public class SampleDataUtil {
 
         return new Person[] {
             new Person(new Name("Alex Yeoh"),
-                getRolesSet("Student"),
+                getRoleSet("Student"),
                 getContactSet("alexyeoh@example.com"),
                 getCourseSet(courseListIterator.next()),
                 getTutorialSet(tutorialListIterator.next())
                 ),
             new Person(new Name("Bernice Yu"),
-                getRolesSet("TA"),
+                getRoleSet("TA"),
                 getContactSet("berniceyu@example.com"),
                 getCourseSet(courseListIterator.next()),
                 getTutorialSet(tutorialListIterator.next())
                 ),
             new Person(new Name("Charlotte Oliveiro"),
-                getRolesSet("Professor"),
+                getRoleSet("Professor"),
                 getContactSet("charlotte@example.com"),
                 getCourseSet(courseListIterator.next()),
                 getTutorialSet(tutorialListIterator.next())
                 ),
             new Person(new Name("David Li"),
-                getRolesSet("Student"),
+                getRoleSet("Student"),
                 getContactSet("lidavid@example.com"),
                 getCourseSet(courseListIterator.next()),
                 getTutorialSet(tutorialListIterator.next())
                 ),
             new Person(new Name("Irfan Ibrahim"),
-                getRolesSet("TA"),
+                getRoleSet("TA"),
                 getContactSet("irfan@example.com"),
                 getCourseSet(courseListIterator.next()),
                 getTutorialSet(tutorialListIterator.next())
                 ),
             new Person(new Name("Roy Balakrishnan"),
-                getRolesSet("Professor"),
+                getRoleSet("Professor"),
                 getContactSet("royb@example.com"),
                 getCourseSet(courseListIterator.next()),
                 getTutorialSet(tutorialListIterator.next())
@@ -89,7 +89,7 @@ public class SampleDataUtil {
     /**
      * Returns a role set containing the list of strings given.
      */
-    public static Set<Role> getRolesSet(String... strings) {
+    public static Set<Role> getRoleSet(String... strings) {
         return Arrays.stream(strings)
                 .map(Role::new)
                 .collect(Collectors.toSet());

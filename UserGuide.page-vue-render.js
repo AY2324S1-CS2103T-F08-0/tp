@@ -116,7 +116,7 @@ with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lan
 with(this){return _c('h5',{attrs:{"id":"example-command-3"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-3","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add --name Aiken Dueet --role STUDENT --contact @aikendueet, aikendueet@gmail.com --course CS2103T/Tut8, CS2101/G06, CS2100/Lab40-Tut30 ")])])}
+with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add --name Aiken Dueet --role Student --contact @aikendueet, aikendueet@gmail.com --course CS2103T/Tut8, CS2101/G06, CS2100/Lab40-Tut30 ")])])}
 },function anonymous(
 ) {
 with(this){return _c('h5',{attrs:{"id":"acceptable-values-3"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-3","onclick":"event.stopPropagation()"}})])}
@@ -125,7 +125,7 @@ with(this){return _c('h5',{attrs:{"id":"acceptable-values-3"}},[_v("ACCEPTABLE V
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("NAME")]),_v(": Any non-empty input of alphabetical characters.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ROLE1")]),_v(": Any three roles allowed here: student, ta, professor (all in lowercase).")])}
+with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ROLE1")]),_v(": Any three roles allowed here: Student, TA, Professor (Case-sensitive)")])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("CONTACT1")]),_v(": Any non-empty input of characters.")])}
@@ -140,7 +140,7 @@ with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lan
 with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-3"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-3","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("You have added a new profile in :)\n")]),_c('span',[_v("Name: Aiken Dueet  \n")]),_c('span',[_v("Role: STUDENT\n")]),_c('span',[_v("Contact: @aikendueet, aikendueet@gmail.com\n")]),_c('span',[_v("Course: CS2103T, CS2101, CS2100\n")]),_c('span',[_v("Tutorials: CS2103T/Tut8, CS2101/G06, CS2100/Lab40-Tut30\n")])])])}
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("You have added a new profile in :\n")]),_c('span',[_v("Name: Aiken Dueet  \n")]),_c('span',[_v("Role: STUDENT\n")]),_c('span',[_v("Contact: @aikendueet, aikendueet@gmail.com\n")]),_c('span',[_v("Course: CS2103T, CS2101, CS2100\n")]),_c('span',[_v("Tutorials: CS2103T/Tut8, CS2101/G06, CS2100/Lab40-Tut30\n")])])])}
 },function anonymous(
 ) {
 with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-3"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-3","onclick":"event.stopPropagation()"}})])}
@@ -230,7 +230,7 @@ with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lan
 with(this){return _c('h5',{attrs:{"id":"acceptable-values-6"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-6","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("KEYWORD")]),_v(": Any non-empty string of alphanumeric characters.")])}
+with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("KEYWORD")]),_v(": Any non-empty string of alphanumeric characters (not case-sensitive).")])}
 },function anonymous(
 ) {
 with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-6"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-6","onclick":"event.stopPropagation()"}})])}
@@ -341,6 +341,6 @@ with(this){return _c('h2',{attrs:{"id":"command-summary"}},[_v("Command summary"
 with(this){return _c('div',{staticClass:"table-responsive"},[_c('table',{staticClass:"markbind-table table table-bordered table-striped"},[_c('thead',[_c('tr',[_c('th',{staticStyle:{"text-align":"center"}},[_v("Action")]),_v(" "),_c('th',[_v("Format")]),_v(" "),_c('th',[_v("Example")])])]),_v(" "),_c('tbody',[_c('tr',[_c('td',{staticStyle:{"text-align":"center"}},[_c('strong',[_v("Help")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("help")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("help")])])]),_v(" "),_c('tr',[_c('td',{staticStyle:{"text-align":"center"}},[_c('strong',[_v("Add")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add --name NAME [--role ROLE1, ...]  [--contact CONTACT1, ...] [--course COURSECODE1/CLASS1-CLASS2-..., ...]")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add --name Aiken Dueet --role STUDENT --contact @aikendueet, aikendueet@gmail.com --course CS2103T/Tut8, CS2101/G06, CS2100/Lab40-Tut30")])])]),_v(" "),_c('tr',[_c('td',{staticStyle:{"text-align":"center"}},[_c('strong',[_v("List")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")])])]),_v(" "),_c('tr',[_c('td',{staticStyle:{"text-align":"center"}},[_c('strong',[_v("Delete")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete INDEX")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete 3")])])]),_v(" "),_c('tr',[_c('td',{staticStyle:{"text-align":"center"}},[_c('strong',[_v("Search")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find KEYWORD")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find CS2100")])])]),_v(" "),_c('tr',[_c('td',{staticStyle:{"text-align":"center"}},[_c('strong',[_v("Favourite")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("fav INDEX")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("fav 1")])])]),_v(" "),_c('tr',[_c('td',{staticStyle:{"text-align":"center"}},[_c('strong',[_v("Exit")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("exit")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("exit")])])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Fri, 20 Oct 2023, 11:24:10 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Fri, 20 Oct 2023, 11:39:12 GMT+8]")])])])}
 }];
   

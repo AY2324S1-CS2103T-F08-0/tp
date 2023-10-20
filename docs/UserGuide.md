@@ -20,7 +20,7 @@ The app helps students to consolidate important data, such as profiles of profes
 
 ## Quick start
 
-1. Ensure you have Java `11` or above installed in your Computer.
+1. Ensure you have Java `11` or above installed in your Computer. For more information on installing Java 11 on your system, click [here](https://docs.oracle.com/en/java/javase/11/install/overview-jdk-installation.html).
 
 2. to be added
 

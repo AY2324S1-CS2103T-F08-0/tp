@@ -3,6 +3,11 @@ package seedu.address.model.person;
 import static java.util.Objects.requireNonNull;
 import static seedu.address.commons.util.AppUtil.checkArgument;
 
+import java.util.HashSet;
+import java.util.Set;
+import java.util.stream.Collectors;
+
+
 /**
  * Represents a Person's address in the address book.
  * Guarantees: immutable; is valid as declared in {@link #isValidRoleType(String)}
@@ -24,9 +29,8 @@ public class Role {
     /*
      * The Role must be either one of Student, TA or Professor.
      */
-    public static final String VALIDATION_REGEX = "^(Student|TA|Professor)$";
-
-    public final RoleType roleType;
+    public static final String VALIDATION_REGEX = "^(Student|TA|Professor)(, (Student|TA|Professor))*$";
+    public final Set<RoleType> roleType;
 
 
     /**
@@ -37,19 +41,19 @@ public class Role {
     public Role(String roleString) {
         requireNonNull(roleString);
         checkArgument(isValidRoleType(roleString), MESSAGE_CONSTRAINTS);
-        roleType = toRoleType(roleString);
+        roleType = new HashSet<>();
+        String[] roleTypeStrings = roleString.split(",");
+        for (String roleTypeStr : roleTypeStrings) {
+            roleType.add(RoleType.valueOf(roleTypeStr.trim()));
+        }
     }
 
-    public String getRoleType() {
-        return String.valueOf(roleType);
+    public Set<RoleType> getRoleType() {
+        return roleType;
     }
 
-    /**
-     * Retrieves the corresponding RoleType from the String input.
-     */
-    public static RoleType toRoleType(String roleString) {
-        checkArgument(isValidRoleType(roleString), MESSAGE_CONSTRAINTS);
-        return RoleType.valueOf(roleString);
+    public String getRoleTypesAsString() {
+        return roleType.stream().map(Enum::toString).collect(Collectors.joining(", "));
     }
 
     /**
@@ -61,7 +65,7 @@ public class Role {
 
     @Override
     public String toString() {
-        return roleType.toString();
+        return getRoleTypesAsString();
     }
 
     @Override

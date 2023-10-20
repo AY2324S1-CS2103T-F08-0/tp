@@ -103,7 +103,7 @@ class JsonAdaptedPerson {
 
             Course relevantCourse = null;
             for (Course course : personCourses) {
-                if (course.courseName == courseName) {
+                if (course.toString().equals(courseName)) {
                     relevantCourse = course;
                     break;
                 }

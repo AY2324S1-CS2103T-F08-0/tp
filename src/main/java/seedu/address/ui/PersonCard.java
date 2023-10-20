@@ -13,6 +13,11 @@ import seedu.address.model.person.Person;
 public class PersonCard extends UiPart<Region> {
 
     private static final String FXML = "PersonListCard.fxml";
+    private static final String NAME_BEGIN_STRING = "Name: ";
+    private static final String CONTACTS_BEGIN_STRING = "Contacts: ";
+    private static final String COURSES_BEGIN_STRING = "Courses: ";
+    private static final String TUTORIAL_BEGIN_STRING = "Tutorials: ";
+    private static final String ROLES_BEGIN_STRING = "Roles: ";
 
     /**
      * Note: Certain keywords such as "location" and "resources" are reserved keywords in JavaFX.
@@ -37,6 +42,8 @@ public class PersonCard extends UiPart<Region> {
     @FXML
     private Label tutorials;
     @FXML
+    private Label roles;
+    @FXML
     private FlowPane tags;
 
     /**
@@ -46,18 +53,21 @@ public class PersonCard extends UiPart<Region> {
         super(FXML);
         this.person = person;
         id.setText(displayedIndex + ". ");
-        name.setText(person.getName().fullName);
+        name.setText(NAME_BEGIN_STRING + person.getName().fullName);
 
-        contacts.setText(person.getContacts().stream()
+        contacts.setText(CONTACTS_BEGIN_STRING + person.getContacts().stream()
                 .map((contact) -> contact.toString())
                 .reduce("", (current, next) -> current + next));
 
-        courses.setText(person.getCourses().stream()
+        courses.setText(COURSES_BEGIN_STRING + person.getCourses().stream()
                 .map((course) -> course.toString())
                 .reduce("", (current, next) -> current + next));
 
-        tutorials.setText(person.getTutorials().stream()
+        tutorials.setText(TUTORIAL_BEGIN_STRING + person.getTutorials().stream()
                 .map((tutorial) -> tutorial.toString())
+                .reduce("", (current, next) -> current + next));
+
+        roles.setText(ROLES_BEGIN_STRING + person.getRoles().stream().map((roles) -> roles.toString())
                 .reduce("", (current, next) -> current + next));
     }
 }

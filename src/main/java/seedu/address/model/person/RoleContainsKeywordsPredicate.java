@@ -20,7 +20,7 @@ public class RoleContainsKeywordsPredicate implements Predicate<Person> {
         return person.getRoles().stream()
                 .map(Role::getRoleType)
                 .anyMatch(roleType -> keywords.stream()
-                        .anyMatch(keyword -> keyword.equalsIgnoreCase(roleType)));
+                        .anyMatch(keyword -> keyword.equalsIgnoreCase(roleType.toString())));
     }
 
     @Override

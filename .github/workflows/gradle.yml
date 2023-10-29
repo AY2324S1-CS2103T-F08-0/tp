@@ -46,9 +46,13 @@ jobs:
         if: runner.os == 'Linux'
         run: git branch -a
 
-      - name: cat
+      - name: cat RoleContainsKeywordsPredicate
         if: runner.os == 'Linux'
         run: cat src/main/java/seedu/address/model/person/RoleContainsKeywordsPredicate.java
+
+      - name: cat Role
+        if: runner.os == 'Linux'
+        run: cat src/main/java/seedu/address/model/person/Role.java
 
       - name: Build and check with Gradle
         run: ./gradlew check coverage

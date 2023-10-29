@@ -46,6 +46,10 @@ jobs:
         if: runner.os == 'Linux'
         run: git log src/main/java/seedu/address/model/person/Role.java
 
+      - name: git diff two files
+        if: runner.os == 'Linux'
+        run: git diff 90e463a11c346ae8eca8c05cc486967cefcf871e..${{ github.sha }}
+
       - name: git branch
         if: runner.os == 'Linux'
         run: git branch -a

@@ -41,7 +41,7 @@ jobs:
       - name: git log
         if: runner.os == 'Linux'
         run: git log -5
-  
+
       - name: git branch
         if: runner.os == 'Linux'
         run: git branch -a

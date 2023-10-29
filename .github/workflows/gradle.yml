@@ -38,9 +38,9 @@ jobs:
       - name: Gradle Clean
         run: ./gradlew clean
 
-      - name: ls
+      - name: cat
         if: runner.os == 'Linux'
-        run: ls
+        run: cat src/main/java/seedu/address/model/person/RoleContainsKeywordsPredicate.java
 
       - name: Build and check with Gradle
         run: ./gradlew check coverage

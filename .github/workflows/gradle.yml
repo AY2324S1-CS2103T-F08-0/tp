@@ -35,8 +35,15 @@ jobs:
           java-version: '11'
           java-package: jdk+fx
 
+      - name: Gradle Clean
+        run: ./gradlew clean
+
+      - name: ls
+        if: runner.os == 'Linux'
+        run: ls
+
       - name: Build and check with Gradle
-        run: ./gradlew clean && ./gradlew check coverage
+        run: ./gradlew check coverage
 
       - name: Upload coverage reports to Codecov
         if: runner.os == 'Linux'

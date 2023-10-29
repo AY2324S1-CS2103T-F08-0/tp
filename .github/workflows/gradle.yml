@@ -38,9 +38,13 @@ jobs:
       - name: Gradle Clean
         run: ./gradlew clean
 
-      - name: git log
+      - name: git log RoleContainsKeywordPredicate
         if: runner.os == 'Linux'
-        run: git log -5
+        run: git log src/main/java/seedu/address/model/person/RoleContainsKeywordsPredicate.java
+
+      - name: git log Role.java
+        if: runner.os == 'Linux'
+        run: git log src/main/java/seedu/address/model/person/Role.java
 
       - name: git branch
         if: runner.os == 'Linux'

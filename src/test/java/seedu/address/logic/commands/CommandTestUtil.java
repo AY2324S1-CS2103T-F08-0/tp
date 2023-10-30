@@ -129,6 +129,27 @@ public class CommandTestUtil {
         } catch (CommandException ce) {
             throw new AssertionError("Execution of command should not fail.", ce);
         }
+
+    }
+
+    /**
+     * Executes the given {@code command} with a dummy model and confirms that
+     * the resulting {@link CommandResult} contains the expected feedback to the user.
+     *
+     * @param command              The command to be executed.
+     * @param dummyModel           A dummy model to execute the command with.
+     * @param expectedCommandResult The expected feedback to be returned by the command.
+     *
+     * @throws AssertionError if the execution of the command fails or if the actual
+     *                      feedback from the command does not match the expected feedback.
+     */
+    public static void assertCommandSuccess(Command command, Model dummyModel, String expectedCommandResult) {
+        try {
+            CommandResult result = command.execute(dummyModel);
+            assertEquals(expectedCommandResult, result.getFeedbackToUser());
+        } catch (CommandException ce) {
+            throw new AssertionError("Execution of command should not fail.", ce);
+        }
     }
 
     /**
@@ -139,6 +160,10 @@ public class CommandTestUtil {
                                             Model expectedModel) {
         CommandResult expectedCommandResult = new CommandResult(expectedMessage);
         assertCommandSuccess(command, actualModel, expectedCommandResult, expectedModel);
+    }
+
+    public static void asserCommandSuccess() {
+
     }
 
     /**

@@ -48,11 +48,11 @@ jobs:
 
       - name: git diff RoleContains...
         if: runner.os == 'Linux'
-        run: git diff 90e463a11c346ae8eca8c05cc486967cefcf871e..${{ github.sha }} src/main/java/seedu/address/model/person/RoleContainsKeywordsPredicate.java
+        run: git diff 1be629f..${{ github.sha }} src/main/java/seedu/address/model/person/RoleContainsKeywordsPredicate.java
 
       - name: git diff Role.java
         if: runner.os == 'Linux'
-        run: git diff 90e463a11c346ae8eca8c05cc486967cefcf871e..${{ github.sha }} src/main/java/seedu/address/model/person/Role.java
+        run: git diff 1be629f..${{ github.sha }} src/main/java/seedu/address/model/person/Role.java
 
       - name: git branch
         if: runner.os == 'Linux'

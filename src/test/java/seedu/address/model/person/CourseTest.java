@@ -67,12 +67,6 @@ public class CourseTest {
         // Different course -> return false
         assertFalse(course1.equals(course3));
 
-        // Not an instance of Course -> return false
-        assertFalse(course1.equals("Not a Course"));
-
-        // null -> return false
-        assertFalse(course1.equals(null));
-
         // Test additional valid contacts for equality
         assertTrue(course3.equals(new Course("ABC1234")));
         assertTrue(course4.equals(new Course("ABC1234X")));

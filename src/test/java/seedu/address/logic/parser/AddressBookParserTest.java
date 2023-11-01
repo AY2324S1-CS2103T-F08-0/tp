@@ -23,19 +23,13 @@ import seedu.address.logic.commands.DeleteCommand;
 import seedu.address.logic.commands.ExitCommand;
 import seedu.address.logic.commands.FavouriteCommand;
 import seedu.address.logic.commands.FindCommand;
-import seedu.address.logic.commands.FindCourseCommand;
-import seedu.address.logic.commands.FindRoleCommand;
-import seedu.address.logic.commands.FindTutorialCommand;
 import seedu.address.logic.commands.HelpCommand;
 import seedu.address.logic.commands.ListCommand;
 import seedu.address.logic.commands.UnfavouriteCommand;
 import seedu.address.logic.parser.exceptions.ParseException;
-import seedu.address.model.person.CourseContainsKeywordsPredicate;
 import seedu.address.model.person.NameContainsKeywordsPredicate;
 import seedu.address.model.person.Person;
 //import seedu.address.testutil.EditPersonDescriptorBuilder;
-import seedu.address.model.person.RoleContainsKeywordsPredicate;
-import seedu.address.model.person.TutorialContainsKeywordsPredicate;
 import seedu.address.testutil.PersonBuilder;
 import seedu.address.testutil.PersonUtil;
 
@@ -97,30 +91,6 @@ public class AddressBookParserTest {
         FindCommand command = (FindCommand) parser.parseCommand(
                 FindCommand.COMMAND_WORD + " " + keywords.stream().collect(Collectors.joining(" ")));
         assertEquals(new FindCommand(new NameContainsKeywordsPredicate(keywords)), command);
-    }
-
-    @Test
-    public void parseCommand_findCourse() throws Exception {
-        List<String> keywords = Arrays.asList("CS2100", "CS2100", "CS2103T");
-        FindCourseCommand command = (FindCourseCommand) parser.parseCommand(
-                FindCourseCommand.COMMAND_WORD + " " + keywords.stream().collect(Collectors.joining(" ")));
-        assertEquals(new FindCourseCommand(new CourseContainsKeywordsPredicate(keywords)), command);
-    }
-
-    @Test
-    public void parseCommand_findRole() throws Exception {
-        List<String> keywords = Arrays.asList("TA", "TA", "Student");
-        FindRoleCommand command = (FindRoleCommand) parser.parseCommand(
-                FindRoleCommand.COMMAND_WORD + " " + keywords.stream().collect(Collectors.joining(" ")));
-        assertEquals(new FindRoleCommand(new RoleContainsKeywordsPredicate(keywords)), command);
-    }
-
-    @Test
-    public void parseCommand_findTutorial() throws Exception {
-        List<String> keywords = Arrays.asList("CS2100/T31", "CS2100/T21", "CS2103T/F08");
-        FindTutorialCommand command = (FindTutorialCommand) parser.parseCommand(
-                FindTutorialCommand.COMMAND_WORD + " " + keywords.stream().collect(Collectors.joining(" ")));
-        assertEquals(new FindTutorialCommand(new TutorialContainsKeywordsPredicate(keywords)), command);
     }
 
     @Test

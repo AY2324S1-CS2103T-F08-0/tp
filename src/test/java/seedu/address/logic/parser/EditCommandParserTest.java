@@ -1,52 +1,50 @@
-/*
 package seedu.address.logic.parser;
 
 import static seedu.address.logic.Messages.MESSAGE_INVALID_COMMAND_FORMAT;
-
-import static seedu.address.logic.commands.CommandTestUtil.INVALID_CONTACT_DESC;
-import static seedu.address.logic.commands.CommandTestUtil.INVALID_COURSE_DESC;
-import static seedu.address.logic.commands.CommandTestUtil.INVALID_NAME_DESC;
-import static seedu.address.logic.commands.CommandTestUtil.INVALID_ROLE_DESC;
-import static seedu.address.logic.commands.CommandTestUtil.INVALID_TUTORIAL_DESC;
-import static seedu.address.logic.commands.CommandTestUtil.CONTACT_DESC_AMY;
-import static seedu.address.logic.commands.CommandTestUtil.CONTACT_DESC_BOB;
-import static seedu.address.logic.commands.CommandTestUtil.COURSE_DESC_1;
-import static seedu.address.logic.commands.CommandTestUtil.COURSE_DESC_2;
+//import static seedu.address.logic.commands.CommandTestUtil.INVALID_CONTACT_DESC;
+//import static seedu.address.logic.commands.CommandTestUtil.INVALID_COURSE_DESC;
+//import static seedu.address.logic.commands.CommandTestUtil.INVALID_NAME_DESC_SYMBOL;
+//import static seedu.address.logic.commands.CommandTestUtil.INVALID_ROLE_DESC;
+//import static seedu.address.logic.commands.CommandTestUtil.INVALID_TUTORIAL_DESC;
+//import static seedu.address.logic.commands.CommandTestUtil.CONTACT_DESC_AMY;
+//import static seedu.address.logic.commands.CommandTestUtil.CONTACT_DESC_BOB;
+//import static seedu.address.logic.commands.CommandTestUtil.COURSE_DESC_1;
+//import static seedu.address.logic.commands.CommandTestUtil.COURSE_DESC_2;
 import static seedu.address.logic.commands.CommandTestUtil.NAME_DESC_AMY;
-import static seedu.address.logic.commands.CommandTestUtil.ROLE_DESC_PROFESSOR;
-import static seedu.address.logic.commands.CommandTestUtil.ROLE_DESC_TA;
-import static seedu.address.logic.commands.CommandTestUtil.ROLE_DESC_STUDENT;
-import static seedu.address.logic.commands.CommandTestUtil.TUTORIAL_DESC_1;
-import static seedu.address.logic.commands.CommandTestUtil.TUTORIAL_DESC_3;
-import static seedu.address.logic.commands.CommandTestUtil.VALID_CONTACT_AMY;
-import static seedu.address.logic.commands.CommandTestUtil.VALID_CONTACT_BOB;
-import static seedu.address.logic.commands.CommandTestUtil.VALID_COURSE_1;
-import static seedu.address.logic.commands.CommandTestUtil.VALID_COURSE_2;
+//import static seedu.address.logic.commands.CommandTestUtil.ROLE_DESC_PROFESSOR;
+//import static seedu.address.logic.commands.CommandTestUtil.ROLE_DESC_TA;
+//import static seedu.address.logic.commands.CommandTestUtil.ROLE_DESC_STUDENT;
+//import static seedu.address.logic.commands.CommandTestUtil.COURSE_TUTORIAL_DESC_1;
+//import static seedu.address.logic.commands.CommandTestUtil.COURSE_TUTORIAL_DESC_3;
+//import static seedu.address.logic.commands.CommandTestUtil.VALID_CONTACT_AMY;
+//import static seedu.address.logic.commands.CommandTestUtil.VALID_CONTACT_BOB;
+//import static seedu.address.logic.commands.CommandTestUtil.VALID_COURSE_1;
+//import static seedu.address.logic.commands.CommandTestUtil.VALID_COURSE_2;
 import static seedu.address.logic.commands.CommandTestUtil.VALID_NAME_AMY;
-import static seedu.address.logic.commands.CommandTestUtil.VALID_ROLE_STUDENT;
-import static seedu.address.logic.commands.CommandTestUtil.VALID_ROLE_TA;
-import static seedu.address.logic.parser.CliSyntax.PREFIX_CONTACT;
-import static seedu.address.logic.parser.CliSyntax.PREFIX_COURSE;
-import static seedu.address.logic.parser.CliSyntax.PREFIX_ROLE;
-import static seedu.address.logic.parser.CliSyntax.PREFIX_TUTORIAL;
+//import static seedu.address.logic.commands.CommandTestUtil.VALID_ROLE_STUDENT;
+//import static seedu.address.logic.commands.CommandTestUtil.VALID_ROLE_TA;
+//import static seedu.address.logic.parser.CliSyntax.PREFIX_CONTACT;
+//import static seedu.address.logic.parser.CliSyntax.PREFIX_COURSE;
+//import static seedu.address.logic.parser.CliSyntax.PREFIX_ROLE;
+//import static seedu.address.logic.parser.CliSyntax.PREFIX_TUTORIAL;
 import static seedu.address.logic.parser.CommandParserTestUtil.assertParseFailure;
-import static seedu.address.logic.parser.CommandParserTestUtil.assertParseSuccess;
-import static seedu.address.testutil.TypicalIndexes.INDEX_FIRST_PERSON;
-import static seedu.address.testutil.TypicalIndexes.INDEX_SECOND_PERSON;
-import static seedu.address.testutil.TypicalIndexes.INDEX_THIRD_PERSON;
+//import static seedu.address.logic.parser.CommandParserTestUtil.assertParseSuccess;
+//import static seedu.address.testutil.TypicalIndexes.INDEX_FIRST_PERSON;
+//import static seedu.address.testutil.TypicalIndexes.INDEX_SECOND_PERSON;
+//import static seedu.address.testutil.TypicalIndexes.INDEX_THIRD_PERSON;
 
 import org.junit.jupiter.api.Test;
 
-import seedu.address.commons.core.index.Index;
-import seedu.address.logic.Messages;
+//import seedu.address.commons.core.index.Index;
+//import seedu.address.logic.Messages;
 import seedu.address.logic.commands.EditCommand;
-import seedu.address.logic.commands.EditCommand.EditPersonDescriptor;
-import seedu.address.model.person.Contact;
-import seedu.address.model.person.Course;
-import seedu.address.model.person.Name;
-import seedu.address.model.person.Role;
-import seedu.address.model.person.Tutorial;
-import seedu.address.testutil.EditPersonDescriptorBuilder;
+//import seedu.address.logic.commands.EditCommand.EditPersonDescriptor;
+//import seedu.address.model.person.Contact;
+//import seedu.address.model.person.Course;
+//import seedu.address.model.person.Name;
+//import seedu.address.model.person.Role;
+//import seedu.address.model.person.Tutorial;
+//import seedu.address.testutil.EditPersonDescriptorBuilder;
 
 public class EditCommandParserTest {
 
@@ -61,7 +59,7 @@ public class EditCommandParserTest {
         assertParseFailure(parser, VALID_NAME_AMY, MESSAGE_INVALID_FORMAT);
 
         // no field specified
-        assertParseFailure(parser, "1", EditCommand.MESSAGE_NOT_EDITED);
+        // assertParseFailure(parser, "1", EditCommand.MESSAGE_NOT_EDITED);
 
         // no index and no field specified
         assertParseFailure(parser, "", MESSAGE_INVALID_FORMAT);
@@ -82,9 +80,10 @@ public class EditCommandParserTest {
         assertParseFailure(parser, "1 i/ string", MESSAGE_INVALID_FORMAT);
     }
 
+    /*
     @Test
     public void parse_invalidValue_failure() {
-        assertParseFailure(parser, "1" + INVALID_NAME_DESC, Name.MESSAGE_CONSTRAINTS); // invalid name
+        assertParseFailure(parser, "1" + INVALID_NAME_DESC_SYMBOL, Name.MESSAGE_CONSTRAINTS); // invalid name
         assertParseFailure(parser, "1" + INVALID_ROLE_DESC, Role.MESSAGE_CONSTRAINTS); // invalid role
         assertParseFailure(parser, "1" + INVALID_CONTACT_DESC, Contact.MESSAGE_CONSTRAINTS); // invalid contact
         assertParseFailure(parser, "1" + INVALID_COURSE_DESC, Course.MESSAGE_CONSTRAINTS); // invalid course
@@ -94,15 +93,17 @@ public class EditCommandParserTest {
         assertParseFailure(parser, "1" + INVALID_ROLE_DESC + CONTACT_DESC_AMY, Role.MESSAGE_CONSTRAINTS);
 
         // multiple invalid values, but only the first invalid value is captured
-        assertParseFailure(parser, "1" + INVALID_NAME_DESC + INVALID_ROLE_DESC + VALID_CONTACT_AMY
+        assertParseFailure(parser, "1" + INVALID_NAME_DESC_SYMBOL + INVALID_ROLE_DESC + VALID_CONTACT_AMY
             + INVALID_COURSE_DESC, Name.MESSAGE_CONSTRAINTS);
     }
+    */
 
+    /*
     @Test
     public void parse_allFieldsSpecified_success() {
         Index targetIndex = INDEX_SECOND_PERSON;
-        String userInput = targetIndex.getOneBased() + CONTACT_DESC_BOB + ROLE_DESC_TA
-                + COURSE_DESC_1 + CONTACT_DESC_AMY;
+        String userInput = targetIndex.getOneBased() + NAME_DESC_AMY + ROLE_DESC_TA + CONTACT_DESC_AMY
+                + COURSE_TUTORIAL_DESC_1;
 
         EditPersonDescriptor descriptor = new EditPersonDescriptorBuilder().withName(VALID_NAME_AMY)
                 .withContacts(VALID_CONTACT_AMY, VALID_CONTACT_BOB)
@@ -170,8 +171,8 @@ public class EditCommandParserTest {
 
         // mulltiple valid fields repeated
         userInput = targetIndex.getOneBased() + CONTACT_DESC_AMY + ROLE_DESC_STUDENT + COURSE_DESC_1
-                + TUTORIAL_DESC_1 + CONTACT_DESC_AMY + ROLE_DESC_TA + COURSE_DESC_2 + ROLE_DESC_PROFESSOR
-                + CONTACT_DESC_BOB + COURSE_DESC_2 + TUTORIAL_DESC_3;
+                + COURSE_TUTORIAL_DESC_1 + CONTACT_DESC_AMY + ROLE_DESC_TA + COURSE_DESC_2 + ROLE_DESC_PROFESSOR
+                + CONTACT_DESC_BOB + COURSE_DESC_2 + COURSE_TUTORIAL_DESC_3;
 
         assertParseFailure(parser, userInput,
                 Messages.getErrorMessageForDuplicatePrefixes(PREFIX_ROLE, PREFIX_CONTACT, PREFIX_COURSE,
@@ -185,6 +186,6 @@ public class EditCommandParserTest {
                 Messages.getErrorMessageForDuplicatePrefixes(PREFIX_ROLE, PREFIX_CONTACT, PREFIX_COURSE,
                 PREFIX_TUTORIAL));
     }
+    */
 
 }
-*/

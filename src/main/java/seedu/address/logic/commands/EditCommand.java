@@ -39,12 +39,12 @@ public class EditCommand extends Command {
         + "by the index number used in the displayed person list. "
         + "Existing values will be overwritten by the input values.\n"
         + "Parameters: INDEX (must be a positive integer) "
-        + "[" + PREFIX_NAME + "NAME] "
-        + "[" + PREFIX_CONTACT + "CONTACT] "
-        + "[" + PREFIX_COURSE + "COURSE] "
-        + "[" + PREFIX_TUTORIAL + "TUTORIAL]...\n"
+        + "--add--name [" + PREFIX_NAME + "NAME] "
+        + "--add--contact [" + PREFIX_CONTACT + "CONTACT] "
+        + "--add--course [" + PREFIX_COURSE + "COURSE] "
+        + "--add--tutorial [" + PREFIX_TUTORIAL + "TUTORIAL]...\n"
         + "Example: " + COMMAND_WORD + " 1 "
-        + PREFIX_COURSE + "CS2101";
+        + "--add--course" + "CS2101";
 
     public static final String MESSAGE_EDIT_PERSON_SUCCESS = "Edited Person: %1$s";
     public static final String MESSAGE_NOT_EDITED = "At least one field to edit must be provided.";

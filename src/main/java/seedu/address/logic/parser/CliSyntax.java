@@ -10,9 +10,8 @@ public class CliSyntax {
     public static final Prefix PREFIX_ROLE = new Prefix("--role");
     public static final Prefix PREFIX_CONTACT = new Prefix("--contact");
     public static final Prefix PREFIX_CONTACT_CHANGE = new Prefix("--change--contact");
-    public static final Prefix PREFIX_CONTACT_ADD = new Prefix("add--contact");
+    public static final Prefix PREFIX_CONTACT_ADD = new Prefix("--add--contact");
     public static final Prefix PREFIX_CONTACT_DELETE = new Prefix("--delete--contact");
-
 
     public static final Prefix PREFIX_COURSE = new Prefix("--course");
     public static final Prefix PREFIX_CHANGE_NAME = new Prefix("--change--name");

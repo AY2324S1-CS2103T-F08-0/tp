@@ -63,8 +63,8 @@ public class EditCommandParser implements Parser<EditCommand> {
         ArgumentMultimap argMultimap =
             ArgumentTokenizer.tokenize(args, PREFIX_NAME, PREFIX_CHANGE_NAME, PREFIX_COURSE_ADD, PREFIX_COURSE_CHANGE,
                     PREFIX_COURSE_DELETE, PREFIX_COURSE, PREFIX_TUTORIAL, PREFIX_ROLES_ADD, PREFIX_ROLES_CHANGE,
-                    PREFIX_ROLES_DELETE, PREFIX_TUTORIAL_ADD, PREFIX_TUTORIAL_CHANGE,
-                    PREFIX_TUTORIAL_DELETE);
+                    PREFIX_ROLES_DELETE, PREFIX_TUTORIAL_ADD, PREFIX_TUTORIAL_CHANGE, PREFIX_CONTACT_ADD,
+                    PREFIX_CONTACT_CHANGE, PREFIX_ROLES_DELETE, PREFIX_TUTORIAL_DELETE);
 
         Index index;
 
@@ -77,7 +77,8 @@ public class EditCommandParser implements Parser<EditCommand> {
         Name name = extractNameForIndex(index, personList);
         argMultimap.verifyNoDuplicatePrefixesFor(PREFIX_NAME, PREFIX_CHANGE_NAME, PREFIX_COURSE_ADD,
                 PREFIX_COURSE_CHANGE, PREFIX_COURSE_DELETE, PREFIX_COURSE, PREFIX_TUTORIAL, PREFIX_ROLES_ADD,
-                PREFIX_ROLES_CHANGE,
+                PREFIX_ROLES_CHANGE, PREFIX_CONTACT_ADD,
+                PREFIX_CONTACT_CHANGE, PREFIX_ROLES_DELETE,
                 PREFIX_ROLES_DELETE);
 
         EditPersonDescriptor editPersonDescriptor = new EditPersonDescriptor();

@@ -1,7 +1,7 @@
 
     var pageVueRenderFn = function anonymous(
 ) {
-with(this){return _c('div',{attrs:{"id":"app"}},[_c('header',{attrs:{"sticky":""}},[_c('navbar',{attrs:{"type":"dark"},scopedSlots:_u([{key:"brand",fn:function(){return [_c('a',{staticClass:"navbar-brand",attrs:{"href":"/tp/index.html","title":"Home"}},[_v("NUSearch")])]},proxy:true},{key:"right",fn:function(){return [_c('li',[_c('form',{staticClass:"navbar-form"},[_c('searchbar',{attrs:{"data":searchData,"placeholder":"Search","on-hit":searchCallback,"menu-align-right":""}})],1)])]},proxy:true}])},[_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/UserGuide.html"}},[_v("User Guide")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/DeveloperGuide.html"}},[_v("Developer Guide")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/AboutUs.html"}},[_v("About Us")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"https://github.com/AY2324S1-CS2103T-F08-0/tp","target":"_blank"}},[_c('span',[_c('span',{staticClass:"fab fa-github",attrs:{"aria-hidden":"true"}})])])])])],1),_v(" "),_c('div',{attrs:{"id":"flex-body"}},[_c('overlay-source',{attrs:{"id":"site-nav","tag-name":"nav","to":"site-nav"}},[_c('div',{staticClass:"site-nav-top"},[_c('div',{staticClass:"fw-bold mb-2",staticStyle:{"font-size":"1.25rem"}},[_v("Site Map")])]),_v(" "),_c('div',{staticClass:"nav-component slim-scroll"},[_c('site-nav',[_c('overlay-source',{staticClass:"site-nav-list site-nav-list-root",attrs:{"tag-name":"ul","to":"mb-site-nav"}},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/index.html"}},[_v("Home")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html"}},[_v("User Guide")]),_v(" "),_c('div',{staticClass:"site-nav-dropdown-btn-container"},[_c('i',{staticClass:"site-nav-dropdown-btn-icon site-nav-rotate-icon",attrs:{"onclick":"handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"}},[_c('span',{staticClass:"glyphicon glyphicon-menu-down",attrs:{"aria-hidden":"true"}})])])]),_c('ul',{staticClass:"site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list"},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#quick-start"}},[_v("Quick Start")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#features"}},[_v("Features")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#faq"}},[_v("FAQ")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#faq"}},[_v("Command Summary")])])])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html"}},[_v("Developer Guide")]),_v(" "),_c('div',{staticClass:"site-nav-dropdown-btn-container"},[_c('i',{staticClass:"site-nav-dropdown-btn-icon site-nav-rotate-icon",attrs:{"onclick":"handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"}},[_c('span',{staticClass:"glyphicon glyphicon-menu-down",attrs:{"aria-hidden":"true"}})])])]),_c('ul',{staticClass:"site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list"},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#acknowledgements"}},[_v("Acknowledgements")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#setting-up-getting-started"}},[_v("Setting Up")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#design"}},[_v("Design")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#implementation"}},[_v("Implementation")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#documentation-logging-testing-configuration-dev-ops"}},[_v("Documentation, logging, testing, configuration, dev-ops")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#appendix-requirements"}},[_v("Appendix: Requirements")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#appendix-instructions-for-manual-testing"}},[_v("Appendix: Instructions for manual testing")])])])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_v("Tutorials\n\n"),_c('div',{staticClass:"site-nav-dropdown-btn-container"},[_c('i',{staticClass:"site-nav-dropdown-btn-icon",attrs:{"onclick":"handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"}},[_c('span',{staticClass:"glyphicon glyphicon-menu-down",attrs:{"aria-hidden":"true"}})])])]),_c('ul',{staticClass:"site-nav-dropdown-container site-nav-list"},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/tutorials/TracingCode.html"}},[_v("Tracing code")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/tutorials/AddRemark.html"}},[_v("Adding a command")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/tutorials/RemovingFields.html"}},[_v("Removing Fields")])])])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/AboutUs.html"}},[_v("About Us")])])])])],1)],1)]),_v(" "),_c('div',{attrs:{"id":"content-wrapper"}},[_m(0),_v(" "),_m(1),_v(" "),_c('div',{pre:true,attrs:{"class":"page-nav-print d-none d-print-block"}}),_v(" "),_c('hr'),_v(" "),_m(2),_v(" "),_c('p',[_v("We aim to simplify the process of accessing academic information by developing an efficient directory app. This app will help students to consolidate professors, teaching assistants (TAs) and their fellow classmates’ profile, improving the ease of accessing the details of individuals whom the students might need to contact for that semester.")]),_v(" "),_m(3),_v(" "),_c('p',[_v("The app helps students to consolidate important data, such as profiles of professors, teaching assistants (TAs), and fellow classmates, providing students with a single platform that is compact and easy to navigate. With this application, students can save time and energy that would otherwise be spent searching for scattered and hard-to-access essential academic contacts. The app features an intuitive and user-friendly interface, making it convenient for users to quickly find the information they need.")]),_v(" "),_m(4),_v(" "),_m(5),_v(" "),_c('hr'),_v(" "),_m(6),_v(" "),_m(7),_v(" "),_c('p',[_v("The description of each command will contain the following:")]),_v(" "),_m(8),_v(" "),_c('p',[_v("Tells you the basic idea of what the command does.")]),_v(" "),_m(9),_v(" "),_c('p',[_v("It specifies how the command should be formatted. You should follow the format specified to ensure that the command gives the desired output.")]),_v(" "),_m(10),_v(" "),_c('p',[_v("Gives you a few examples of how the command can be used for reference.")]),_v(" "),_m(11),_v(" "),_c('p',[_v("Describes the accepted values used in a command field, specifying any restrictions. Values for the command must satisfy the restrictions for the command to be accepted.")]),_v(" "),_m(12),_v(" "),_c('p',[_v("Describes the desired output that you would see when the command is valid.")]),_v(" "),_m(13),_v(" "),_c('p',[_v("Shows the error messages that will be shown to you if an invalid command is given.")]),_v(" "),_m(14),_v(" "),_m(15),_v(" "),_m(16),_m(17),_v(" "),_m(18),_m(19),_m(20),_v(" "),_m(21),_m(22),_v(" "),_m(23),_v(" "),_c('p',[_v("Adds new profiles in the profile lists.")]),_v(" "),_m(24),_v(" "),_m(25),_v(" "),_c('box',{attrs:{"type":"tip","seamless":""}},[_c('p',[_c('strong',[_v("Tip:")])]),_v(" "),_c('p',[_v("-The input for role is case-sensitive")]),_v(" "),_c('p',[_v("-Contacts can be any type of contact: email address, telegram handle, phone number, etc.")]),_v(" "),_c('p',[_v("-Courses can be any of the courses offered by NUS")]),_v(" "),_c('p',[_v("-Courses can be added without the tutorial classes but tutorial classes must be added with a course\n(see Example 2 below for more details)")]),_v(" "),_c('blockquote',[_c('p',[_v("📝Note:")]),_v(" "),_c('p',[_v("Please use a comma (,) to separate the different roles, contacts and courses")])]),_v(" "),_c('p',[_v("-The different fields are colour-coded to differentiate between them.")]),_v(" "),_c('p',[_v("-The user can press tab to auto fill commands.")]),_v(" "),_c('p',[_v("-The square brackets, [ ], are not needed when entering the command (see Example 3 below for more details)")])]),_v(" "),_m(26),_v(" "),_c('p',[_v("Example 1:")]),_v(" "),_m(27),_v(" "),_c('p',[_v("Example 2:")]),_v(" "),_m(28),_v(" "),_c('p',[_v("Example 3:")]),_v(" "),_m(29),_v(" "),_m(30),_v(" "),_m(31),_v(" "),_m(32),_v(" "),_m(33),_v(" "),_m(34),_v(" "),_m(35),_v(" "),_m(36),_v(" "),_c('p',[_v("Example 1:")]),_v(" "),_m(37),_c('p',[_v("Example 2:")]),_v(" "),_m(38),_c('p',[_v("Example 3:")]),_v(" "),_m(39),_m(40),_v(" "),_m(41),_v(" "),_m(42),_v(" "),_m(43),_m(44),_v(" "),_m(45),_v(" "),_m(46),_v(" "),_m(47),_v(" "),_m(48),_v(" "),_m(49),_v(" "),_m(50),_m(51),_v(" "),_m(52),_v(" "),_m(53),_v(" "),_c('p',[_v("List all the profiles added by the user.")]),_v(" "),_m(54),_v(" "),_m(55),_v(" "),_m(56),_v(" "),_m(57),_v(" "),_m(58),_v(" "),_c('p',[_v("This command does not accept any parameters.")]),_v(" "),_m(59),_v(" "),_m(60),_m(61),_v(" "),_m(62),_v(" "),_m(63),_v(" "),_m(64),_v(" "),_m(65),_v(" "),_c('p',[_v("Delete the specific profile based on the index allocated to the profile.")]),_v(" "),_m(66),_v(" "),_m(67),_v(" "),_m(68),_v(" "),_m(69),_v(" "),_m(70),_v(" "),_m(71),_v(" "),_m(72),_v(" "),_m(73),_m(74),_v(" "),_m(75),_v(" "),_m(76),_v(" "),_m(77),_m(78),_v(" "),_m(79),_v(" "),_m(80),_v(" "),_m(81),_v(" "),_c('p',[_v("Search for profiles using name.")]),_v(" "),_c('p',[_v("Output profiles which match the given name.")]),_v(" "),_m(82),_v(" "),_m(83),_v(" "),_m(84),_v(" "),_m(85),_v(" "),_m(86),_v(" "),_m(87),_v(" "),_m(88),_v(" "),_m(89),_v(" "),_m(90),_m(91),_v(" "),_m(92),_v(" "),_m(93),_v(" "),_m(94),_m(95),_v(" "),_c('p',[_v("Search for profiles using course.")]),_v(" "),_c('p',[_v("Output profiles which match the given course.")]),_v(" "),_m(96),_v(" "),_m(97),_v(" "),_m(98),_v(" "),_m(99),_v(" "),_m(100),_v(" "),_m(101),_v(" "),_m(102),_v(" "),_m(103),_v(" "),_m(104),_v(" "),_m(105),_m(106),_v(" "),_m(107),_v(" "),_m(108),_v(" "),_m(109),_m(110),_v(" "),_c('p',[_v("Search for profiles using role.")]),_v(" "),_c('p',[_v("Output profiles which match the given role.")]),_v(" "),_m(111),_v(" "),_m(112),_v(" "),_m(113),_v(" "),_m(114),_v(" "),_m(115),_v(" "),_m(116),_v(" "),_m(117),_v(" "),_c('p',[_v("A valid role type:")]),_v(" "),_m(118),_v(" "),_m(119),_v(" "),_m(120),_m(121),_v(" "),_m(122),_v(" "),_m(123),_v(" "),_m(124),_m(125),_v(" "),_c('p',[_v("Search for profiles using tutorial class.")]),_v(" "),_c('p',[_v("Output profiles which match the given tutorial class.")]),_v(" "),_m(126),_v(" "),_m(127),_v(" "),_m(128),_v(" "),_m(129),_v(" "),_m(130),_v(" "),_m(131),_v(" "),_m(132),_v(" "),_m(133),_v(" "),_m(134),_m(135),_v(" "),_m(136),_v(" "),_m(137),_v(" "),_m(138),_m(139),_v(" "),_c('p',[_v("Favourite the profiles in the user’s current profile list.")]),_v(" "),_m(140),_v(" "),_m(141),_v(" "),_m(142),_v(" "),_m(143),_v(" "),_m(144),_v(" "),_m(145),_v(" "),_m(146),_v(" "),_m(147),_v(" "),_m(148),_m(149),_v(" "),_m(150),_v(" "),_m(151),_v(" "),_m(152),_m(153),_v(" "),_m(154),_v(" "),_m(155),_v(" "),_m(156),_v(" "),_c('p',[_v("Un-favourite a favourite profile")]),_v(" "),_m(157),_v(" "),_m(158),_v(" "),_m(159),_v(" "),_m(160),_v(" "),_m(161),_v(" "),_m(162),_v(" "),_m(163),_v(" "),_m(164),_v(" "),_m(165),_m(166),_v(" "),_m(167),_v(" "),_m(168),_v(" "),_m(169),_m(170),_v(" "),_m(171),_v(" "),_m(172),_v(" "),_m(173),_v(" "),_c('p',[_v("Show the help page of the application")]),_v(" "),_m(174),_v(" "),_m(175),_v(" "),_m(176),_v(" "),_m(177),_v(" "),_m(178),_v(" "),_c('p',[_v("This command does not accept any parameters")]),_v(" "),_m(179),_v(" "),_m(180),_m(181),_v(" "),_m(182),_v(" "),_m(183),_v(" "),_m(184),_v(" "),_m(185),_v(" "),_m(186),_v(" "),_c('p',[_v("Edits all fields in the current profile")]),_v(" "),_m(187),_v(" "),_m(188),_v(" "),_m(189),_v(" "),_m(190),_v(" "),_m(191),_v(" "),_m(192),_v(" "),_m(193),_v(" "),_m(194),_v(" "),_m(195),_v(" "),_m(196),_v(" "),_m(197),_v(" "),_m(198),_m(199),_v(" "),_m(200),_v(" "),_m(201),_v(" "),_m(202),_m(203),_v(" "),_m(204),_v(" "),_m(205),_v(" "),_m(206),_v(" "),_c('p',[_v("Closes and exits the application")]),_v(" "),_m(207),_v(" "),_m(208),_v(" "),_m(209),_v(" "),_m(210),_v(" "),_m(211),_v(" "),_c('p',[_v("This command does not accept any parameters")]),_v(" "),_m(212),_v(" "),_c('p',[_v("There will be no output")]),_v(" "),_c('p',[_v("The application will close")]),_v(" "),_m(213),_v(" "),_m(214),_v(" "),_m(215),_v(" "),_m(216),_v(" "),_c('hr'),_v(" "),_m(217),_v(" "),_m(218),_v(" "),_m(219),_v(" "),_c('hr'),_v(" "),_m(220),_v(" "),_m(221),_v(" "),_c('hr'),_v(" "),_m(222),_v(" "),_m(223),_v(" "),_c('hr'),_v(" "),_m(224),_v(" "),_m(225)],1),_v(" "),_c('overlay-source',{attrs:{"id":"page-nav","tag-name":"nav","to":"page-nav"}},[_c('div',{staticClass:"nav-component slim-scroll"},[_c('overlay-source',{staticClass:"nav nav-pills flex-column my-0 small no-flex-wrap",attrs:{"id":"mb-page-nav","tag-name":"nav","to":"mb-page-nav"}},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#nusearch-user-guide"}},[_v("NUSearch User Guide‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#motivation"}},[_v("Motivation‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#unique-selling-point"}},[_v("Unique Selling Point‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#quick-start"}},[_v("Quick start‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#features-and-amp-commands"}},[_v("Features & Commands‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#a-guide-to-reading-each-command"}},[_v("A Guide to reading each command‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#how-to-interpret-a-command-format"}},[_v("How to interpret a command format‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#features"}},[_v("Features‎")])]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#ui-mockup"}},[_v("UI Mockup‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#faq"}},[_v("FAQ‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#known-issues"}},[_v("Known issues‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#command-summary"}},[_v("Command summary‎")])])])],1)]),_v(" "),_c('scroll-top-button')],1),_v(" "),_m(226)])}
+with(this){return _c('div',{attrs:{"id":"app"}},[_c('header',{attrs:{"sticky":""}},[_c('navbar',{attrs:{"type":"dark"},scopedSlots:_u([{key:"brand",fn:function(){return [_c('a',{staticClass:"navbar-brand",attrs:{"href":"/tp/index.html","title":"Home"}},[_v("NUSearch")])]},proxy:true},{key:"right",fn:function(){return [_c('li',[_c('form',{staticClass:"navbar-form"},[_c('searchbar',{attrs:{"data":searchData,"placeholder":"Search","on-hit":searchCallback,"menu-align-right":""}})],1)])]},proxy:true}])},[_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/UserGuide.html"}},[_v("User Guide")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/DeveloperGuide.html"}},[_v("Developer Guide")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/AboutUs.html"}},[_v("About Us")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"https://github.com/AY2324S1-CS2103T-F08-0/tp","target":"_blank"}},[_c('span',[_c('span',{staticClass:"fab fa-github",attrs:{"aria-hidden":"true"}})])])])])],1),_v(" "),_c('div',{attrs:{"id":"flex-body"}},[_c('overlay-source',{attrs:{"id":"site-nav","tag-name":"nav","to":"site-nav"}},[_c('div',{staticClass:"site-nav-top"},[_c('div',{staticClass:"fw-bold mb-2",staticStyle:{"font-size":"1.25rem"}},[_v("Site Map")])]),_v(" "),_c('div',{staticClass:"nav-component slim-scroll"},[_c('site-nav',[_c('overlay-source',{staticClass:"site-nav-list site-nav-list-root",attrs:{"tag-name":"ul","to":"mb-site-nav"}},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/index.html"}},[_v("Home")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html"}},[_v("User Guide")]),_v(" "),_c('div',{staticClass:"site-nav-dropdown-btn-container"},[_c('i',{staticClass:"site-nav-dropdown-btn-icon site-nav-rotate-icon",attrs:{"onclick":"handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"}},[_c('span',{staticClass:"glyphicon glyphicon-menu-down",attrs:{"aria-hidden":"true"}})])])]),_c('ul',{staticClass:"site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list"},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#quick-start"}},[_v("Quick Start")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#features"}},[_v("Features")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#faq"}},[_v("FAQ")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#faq"}},[_v("Command Summary")])])])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html"}},[_v("Developer Guide")]),_v(" "),_c('div',{staticClass:"site-nav-dropdown-btn-container"},[_c('i',{staticClass:"site-nav-dropdown-btn-icon site-nav-rotate-icon",attrs:{"onclick":"handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"}},[_c('span',{staticClass:"glyphicon glyphicon-menu-down",attrs:{"aria-hidden":"true"}})])])]),_c('ul',{staticClass:"site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list"},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#acknowledgements"}},[_v("Acknowledgements")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#setting-up-getting-started"}},[_v("Setting Up")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#design"}},[_v("Design")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#implementation"}},[_v("Implementation")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#documentation-logging-testing-configuration-dev-ops"}},[_v("Documentation, logging, testing, configuration, dev-ops")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#appendix-requirements"}},[_v("Appendix: Requirements")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#appendix-instructions-for-manual-testing"}},[_v("Appendix: Instructions for manual testing")])])])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_v("Tutorials\n\n"),_c('div',{staticClass:"site-nav-dropdown-btn-container"},[_c('i',{staticClass:"site-nav-dropdown-btn-icon",attrs:{"onclick":"handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"}},[_c('span',{staticClass:"glyphicon glyphicon-menu-down",attrs:{"aria-hidden":"true"}})])])]),_c('ul',{staticClass:"site-nav-dropdown-container site-nav-list"},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/tutorials/TracingCode.html"}},[_v("Tracing code")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/tutorials/AddRemark.html"}},[_v("Adding a command")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/tutorials/RemovingFields.html"}},[_v("Removing Fields")])])])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/AboutUs.html"}},[_v("About Us")])])])])],1)],1)]),_v(" "),_c('div',{attrs:{"id":"content-wrapper"}},[_m(0),_v(" "),_m(1),_v(" "),_c('div',{pre:true,attrs:{"class":"page-nav-print d-none d-print-block"}}),_v(" "),_c('hr'),_v(" "),_m(2),_v(" "),_c('p',[_v("We aim to simplify the process of accessing academic information by developing an efficient directory app. This app will help students to consolidate professors, teaching assistants (TAs) and their fellow classmates’ profile, improving the ease of accessing the details of individuals whom the students might need to contact for that semester.")]),_v(" "),_m(3),_v(" "),_c('p',[_v("The app helps students to consolidate important data, such as profiles of professors, teaching assistants (TAs), and fellow classmates, providing students with a single platform that is compact and easy to navigate. With this application, students can save time and energy that would otherwise be spent searching for scattered and hard-to-access essential academic contacts. The app features an intuitive and user-friendly interface, making it convenient for users to quickly find the information they need.")]),_v(" "),_m(4),_v(" "),_m(5),_v(" "),_c('hr'),_v(" "),_m(6),_v(" "),_m(7),_v(" "),_c('p',[_v("The description of each command will contain the following:")]),_v(" "),_m(8),_v(" "),_c('p',[_v("Tells you the basic idea of what the command does.")]),_v(" "),_m(9),_v(" "),_c('p',[_v("It specifies how the command should be formatted. You should follow the format specified to ensure that the command gives the desired output.")]),_v(" "),_m(10),_v(" "),_c('p',[_v("Gives you a few examples of how the command can be used for reference.")]),_v(" "),_m(11),_v(" "),_c('p',[_v("Describes the accepted values used in a command field, specifying any restrictions. Values for the command must satisfy the restrictions for the command to be accepted.")]),_v(" "),_m(12),_v(" "),_c('p',[_v("Describes the desired output that you would see when the command is valid.")]),_v(" "),_m(13),_v(" "),_c('p',[_v("Shows the error messages that will be shown to you if an invalid command is given.")]),_v(" "),_m(14),_v(" "),_m(15),_v(" "),_m(16),_m(17),_v(" "),_m(18),_m(19),_m(20),_v(" "),_m(21),_m(22),_v(" "),_m(23),_v(" "),_c('p',[_v("Adds new profiles in the profile lists.")]),_v(" "),_m(24),_v(" "),_m(25),_v(" "),_c('box',{attrs:{"type":"tip","seamless":""}},[_c('p',[_c('strong',[_v("Tip:")])]),_v(" "),_c('p',[_v("-The input for role is case-sensitive")]),_v(" "),_c('p',[_v("-Contacts can be any type of contact: email address, telegram handle, phone number, etc.")]),_v(" "),_c('p',[_v("-Courses can be any of the courses offered by NUS")]),_v(" "),_c('p',[_v("-Courses can be added without the tutorial classes but tutorial classes must be added with a course\n(see Example 2 below for more details)")]),_v(" "),_c('blockquote',[_c('p',[_v("📝Note:")]),_v(" "),_c('p',[_v("Please use a comma (,) to separate the different roles, contacts and courses")])]),_v(" "),_c('p',[_v("-The different fields are colour-coded to differentiate between them.")]),_v(" "),_c('p',[_v("-The user can press tab to auto fill commands.")]),_v(" "),_c('p',[_v("-The square brackets, [ ], are not needed when entering the command (see Example 3 below for more details)")])]),_v(" "),_m(26),_v(" "),_c('p',[_v("Example 1:")]),_v(" "),_m(27),_v(" "),_c('p',[_v("Example 2:")]),_v(" "),_m(28),_v(" "),_c('p',[_v("Example 3:")]),_v(" "),_m(29),_v(" "),_m(30),_v(" "),_m(31),_v(" "),_m(32),_v(" "),_m(33),_v(" "),_m(34),_v(" "),_m(35),_v(" "),_m(36),_v(" "),_c('p',[_v("Example 1:")]),_v(" "),_m(37),_c('p',[_v("Example 2:")]),_v(" "),_m(38),_c('p',[_v("Example 3:")]),_v(" "),_m(39),_m(40),_v(" "),_m(41),_v(" "),_m(42),_v(" "),_m(43),_m(44),_v(" "),_m(45),_v(" "),_m(46),_v(" "),_m(47),_v(" "),_m(48),_v(" "),_m(49),_v(" "),_m(50),_m(51),_v(" "),_m(52),_v(" "),_m(53),_v(" "),_c('p',[_v("List all the profiles added by the user.")]),_v(" "),_m(54),_v(" "),_m(55),_v(" "),_m(56),_v(" "),_m(57),_v(" "),_m(58),_v(" "),_c('p',[_v("This command does not accept any parameters.")]),_v(" "),_m(59),_v(" "),_m(60),_m(61),_v(" "),_m(62),_v(" "),_m(63),_v(" "),_m(64),_v(" "),_m(65),_v(" "),_c('p',[_v("List all the profiles favourited by the user.")]),_v(" "),_m(66),_v(" "),_m(67),_v(" "),_m(68),_v(" "),_m(69),_v(" "),_m(70),_v(" "),_c('p',[_v("This command does not accept any parameters.")]),_v(" "),_m(71),_v(" "),_m(72),_m(73),_v(" "),_m(74),_v(" "),_m(75),_v(" "),_m(76),_v(" "),_m(77),_v(" "),_c('p',[_v("Delete the specific profile based on the index allocated to the profile.")]),_v(" "),_m(78),_v(" "),_m(79),_v(" "),_m(80),_v(" "),_m(81),_v(" "),_m(82),_v(" "),_m(83),_v(" "),_m(84),_v(" "),_m(85),_m(86),_v(" "),_m(87),_v(" "),_m(88),_v(" "),_m(89),_m(90),_v(" "),_m(91),_v(" "),_m(92),_v(" "),_m(93),_v(" "),_c('p',[_v("Search for profiles using name.")]),_v(" "),_c('p',[_v("Output profiles which match the given name.")]),_v(" "),_m(94),_v(" "),_m(95),_v(" "),_m(96),_v(" "),_m(97),_v(" "),_m(98),_v(" "),_m(99),_v(" "),_m(100),_v(" "),_m(101),_v(" "),_m(102),_m(103),_v(" "),_m(104),_v(" "),_m(105),_v(" "),_m(106),_m(107),_v(" "),_c('p',[_v("Search for profiles using course.")]),_v(" "),_c('p',[_v("Output profiles which match the given course.")]),_v(" "),_m(108),_v(" "),_m(109),_v(" "),_m(110),_v(" "),_m(111),_v(" "),_m(112),_v(" "),_m(113),_v(" "),_m(114),_v(" "),_m(115),_v(" "),_m(116),_v(" "),_m(117),_m(118),_v(" "),_m(119),_v(" "),_m(120),_v(" "),_m(121),_m(122),_v(" "),_c('p',[_v("Search for profiles using role.")]),_v(" "),_c('p',[_v("Output profiles which match the given role.")]),_v(" "),_m(123),_v(" "),_m(124),_v(" "),_m(125),_v(" "),_m(126),_v(" "),_m(127),_v(" "),_m(128),_v(" "),_m(129),_v(" "),_c('p',[_v("A valid role type:")]),_v(" "),_m(130),_v(" "),_m(131),_v(" "),_m(132),_m(133),_v(" "),_m(134),_v(" "),_m(135),_v(" "),_m(136),_m(137),_v(" "),_c('p',[_v("Search for profiles using tutorial class.")]),_v(" "),_c('p',[_v("Output profiles which match the given tutorial class.")]),_v(" "),_m(138),_v(" "),_m(139),_v(" "),_m(140),_v(" "),_m(141),_v(" "),_m(142),_v(" "),_m(143),_v(" "),_m(144),_v(" "),_m(145),_v(" "),_m(146),_m(147),_v(" "),_m(148),_v(" "),_m(149),_v(" "),_m(150),_m(151),_v(" "),_c('p',[_v("Favourite the profiles in the user’s current profile list.")]),_v(" "),_m(152),_v(" "),_m(153),_v(" "),_m(154),_v(" "),_m(155),_v(" "),_m(156),_v(" "),_m(157),_v(" "),_m(158),_v(" "),_m(159),_v(" "),_m(160),_m(161),_v(" "),_m(162),_v(" "),_m(163),_v(" "),_m(164),_m(165),_v(" "),_m(166),_v(" "),_m(167),_v(" "),_m(168),_v(" "),_c('p',[_v("Un-favourite a favourite profile")]),_v(" "),_m(169),_v(" "),_m(170),_v(" "),_m(171),_v(" "),_m(172),_v(" "),_m(173),_v(" "),_m(174),_v(" "),_m(175),_v(" "),_m(176),_v(" "),_m(177),_m(178),_v(" "),_m(179),_v(" "),_m(180),_v(" "),_m(181),_m(182),_v(" "),_m(183),_v(" "),_m(184),_v(" "),_m(185),_v(" "),_c('p',[_v("Show the help page of the application")]),_v(" "),_m(186),_v(" "),_m(187),_v(" "),_m(188),_v(" "),_m(189),_v(" "),_m(190),_v(" "),_c('p',[_v("This command does not accept any parameters")]),_v(" "),_m(191),_v(" "),_m(192),_m(193),_v(" "),_m(194),_v(" "),_m(195),_v(" "),_m(196),_v(" "),_m(197),_v(" "),_m(198),_v(" "),_c('p',[_v("Edits all fields in the current profile")]),_v(" "),_m(199),_v(" "),_m(200),_v(" "),_m(201),_v(" "),_m(202),_v(" "),_m(203),_v(" "),_m(204),_v(" "),_m(205),_v(" "),_m(206),_v(" "),_m(207),_v(" "),_m(208),_v(" "),_m(209),_v(" "),_m(210),_m(211),_v(" "),_m(212),_v(" "),_m(213),_v(" "),_m(214),_m(215),_v(" "),_m(216),_v(" "),_m(217),_v(" "),_m(218),_v(" "),_c('p',[_v("Closes and exits the application")]),_v(" "),_m(219),_v(" "),_m(220),_v(" "),_m(221),_v(" "),_m(222),_v(" "),_m(223),_v(" "),_c('p',[_v("This command does not accept any parameters")]),_v(" "),_m(224),_v(" "),_c('p',[_v("There will be no output")]),_v(" "),_c('p',[_v("The application will close")]),_v(" "),_m(225),_v(" "),_m(226),_v(" "),_m(227),_v(" "),_m(228),_v(" "),_c('hr'),_v(" "),_m(229),_v(" "),_m(230),_v(" "),_m(231),_v(" "),_c('hr'),_v(" "),_m(232),_v(" "),_m(233),_v(" "),_c('hr'),_v(" "),_m(234),_v(" "),_m(235),_v(" "),_c('hr'),_v(" "),_m(236),_v(" "),_m(237)],1),_v(" "),_c('overlay-source',{attrs:{"id":"page-nav","tag-name":"nav","to":"page-nav"}},[_c('div',{staticClass:"nav-component slim-scroll"},[_c('overlay-source',{staticClass:"nav nav-pills flex-column my-0 small no-flex-wrap",attrs:{"id":"mb-page-nav","tag-name":"nav","to":"mb-page-nav"}},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#nusearch-user-guide"}},[_v("NUSearch User Guide‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#motivation"}},[_v("Motivation‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#unique-selling-point"}},[_v("Unique Selling Point‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#quick-start"}},[_v("Quick start‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#features-and-amp-commands"}},[_v("Features & Commands‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#a-guide-to-reading-each-command"}},[_v("A Guide to reading each command‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#how-to-interpret-a-command-format"}},[_v("How to interpret a command format‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#features"}},[_v("Features‎")])]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#ui-mockup"}},[_v("UI Mockup‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#faq"}},[_v("FAQ‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#known-issues"}},[_v("Known issues‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#command-summary"}},[_v("Command summary‎")])])])],1)]),_v(" "),_c('scroll-top-button')],1),_v(" "),_m(238)])}
 };
     var pageVueStaticRenderFns = [function anonymous(
 ) {
@@ -200,34 +200,70 @@ with(this){return _c('p',[_v("Any other command word such as "),_c('code',{pre:t
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Unknown command")])])}
 },function anonymous(
 ) {
-with(this){return _c('h4',{attrs:{"id":"deleting-a-profile-delete"}},[_v("Deleting a profile : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#deleting-a-profile-delete","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h4',{attrs:{"id":"listing-all-favourite-persons-favlist"}},[_v("Listing all favourite persons : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("favlist")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#listing-all-favourite-persons-favlist","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('h5',{attrs:{"id":"format-4"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-4","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete INDEX")])])}
+with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("favlist")])])}
 },function anonymous(
 ) {
 with(this){return _c('h5',{attrs:{"id":"example-command-4"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-4","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete 1")])])}
+with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("favlist")])])}
 },function anonymous(
 ) {
 with(this){return _c('h5',{attrs:{"id":"acceptable-values-4"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-4","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-4"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-4","onclick":"event.stopPropagation()"}})])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("You have 1 favourited profile in your list. \n")]),_c('span',[_v("Name: Aiken Dueet  \n")]),_c('span',[_v("Role: STUDENT\n")]),_c('span',[_v("Contact: @aikendueet, aikendueet@gmail.com\n")]),_c('span',[_v("Course: CS2103T, CS2101, CS2100\n")]),_c('span',[_v("Tutorials: CS2103T/Tut8 , CS2101/G06, CS2100/Lab40-Tut30 \n")])])])}
+},function anonymous(
+) {
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-4"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-4","onclick":"event.stopPropagation()"}})])}
+},function anonymous(
+) {
+with(this){return _c('p',[_v("This command only recognises "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("favlist")]),_v(" as the keyword.")])}
+},function anonymous(
+) {
+with(this){return _c('p',[_v("Any other command word such as "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("favl")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("favli")]),_v(" and "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("favlis")]),_v(" will be seen as an invalid command with the following output:")])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Unknown command")])])}
+},function anonymous(
+) {
+with(this){return _c('h4',{attrs:{"id":"deleting-a-profile-delete"}},[_v("Deleting a profile : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#deleting-a-profile-delete","onclick":"event.stopPropagation()"}})])}
+},function anonymous(
+) {
+with(this){return _c('h5',{attrs:{"id":"format-5"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-5","onclick":"event.stopPropagation()"}})])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete INDEX")])])}
+},function anonymous(
+) {
+with(this){return _c('h5',{attrs:{"id":"example-command-5"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-5","onclick":"event.stopPropagation()"}})])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete 1")])])}
+},function anonymous(
+) {
+with(this){return _c('h5',{attrs:{"id":"acceptable-values-5"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-5","onclick":"event.stopPropagation()"}})])}
+},function anonymous(
+) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("INDEX")]),_v(": Any number representing a positive integer (i.e. 1, 2, 3, …),\nless than or equal to the number of profiles the user currently has.")])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-4"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-4","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-5"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-5","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("Deleted person: Deleted Person: Name: Aiken Dueet; Role: Student; Contacts: [@aikendueet], [aikendueet@gmail.com]; Courses: CS2103T; Tutorials: CS2103T/Tut8\n")])])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-4"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-4","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-5"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-5","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('h4',{attrs:{"id":"for-invalid-index"}},[_v("For invalid index:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#for-invalid-index","onclick":"event.stopPropagation()"}})])}
@@ -254,31 +290,31 @@ with(this){return _c('h4',{attrs:{"id":"searching-for-profiles-by-name-search"}}
 with(this){return _c('blockquote',[_c('p',[_v("Note: The input name is NOT case-sensitive.")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"format-5"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-5","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"format-6"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-6","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("search NAME")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"example-command-5"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-5","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"example-command-6"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-6","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("search Charlie")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"acceptable-values-5"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-5","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"acceptable-values-6"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-6","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("NAME")]),_v(": Any non-empty string of alphanumeric characters (not case-sensitive).")])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-5"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-5","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-6"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-6","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("1 persons found!\n")])])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-5"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-5","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-6"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-6","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('h4',{attrs:{"id":"for-incomplete-command"}},[_v("For incomplete command:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#for-incomplete-command","onclick":"event.stopPropagation()"}})])}
@@ -296,19 +332,19 @@ with(this){return _c('h4',{attrs:{"id":"searching-for-profiles-by-course-searchc
 with(this){return _c('blockquote',[_c('p',[_v("Note: The input course is NOT case-sensitive.")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"format-6"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-6","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"format-7"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-7","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("search COURSECODE")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"example-command-6"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-6","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"example-command-7"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-7","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("search CS2100")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"acceptable-values-6"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-6","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"acceptable-values-7"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-7","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("COURSECODE")]),_v(": A valid course code that fulfills the following criteria (not case-sensitive):")])}
@@ -317,13 +353,13 @@ with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lan
 with(this){return _c('ol',[_c('li',[_v("Starts with two- or three-letter prefix")]),_v(" "),_c('li',[_v("Follows by four digits, first of which indicates the level of the course")]),_v(" "),_c('li',[_v("Can end with a letter")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-6"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-6","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-7"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-7","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("1 persons found!\n")])])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-6"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-6","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-7"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-7","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('h4',{attrs:{"id":"for-incomplete-command-2"}},[_v("For incomplete command:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#for-incomplete-command-2","onclick":"event.stopPropagation()"}})])}
@@ -341,19 +377,19 @@ with(this){return _c('h4',{attrs:{"id":"searching-for-profiles-by-rle-searchrole
 with(this){return _c('blockquote',[_c('p',[_v("Note: The input role is NOT case-sensitive.")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"format-7"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-7","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"format-8"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-8","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("search ROLE")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"example-command-7"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-7","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"example-command-8"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-8","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("search TA")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"acceptable-values-7"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-7","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"acceptable-values-8"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-8","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ROLE")]),_v(":")])}
@@ -362,13 +398,13 @@ with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lan
 with(this){return _c('ol',[_c('li',[_v("TA")]),_v(" "),_c('li',[_v("Student")]),_v(" "),_c('li',[_v("Professor")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-7"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-7","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-8"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-8","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("0 persons found!\n")])])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-7"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-7","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-8"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-8","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('h4',{attrs:{"id":"for-incomplete-command-3"}},[_v("For incomplete command:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#for-incomplete-command-3","onclick":"event.stopPropagation()"}})])}
@@ -386,31 +422,31 @@ with(this){return _c('h4',{attrs:{"id":"searching-for-profiles-by-rle-searchtuto
 with(this){return _c('blockquote',[_c('p',[_v("Note: The input tutorial is NOT case-sensitive.")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"format-8"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-8","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"format-9"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-9","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("search TUTORIAL")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"example-command-8"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-8","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"example-command-9"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-9","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("search CS2100/Tut8")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"acceptable-values-8"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-8","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"acceptable-values-9"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-9","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("TUTORIAL")]),_v(": A valid tutorial in the format: COURSECODE/TUTORIAL.")])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-8"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-8","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-9"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-9","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("0 persons found!\n")])])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-8"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-8","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-9"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-9","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('h4',{attrs:{"id":"for-incomplete-command-4"}},[_v("For incomplete command:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#for-incomplete-command-4","onclick":"event.stopPropagation()"}})])}
@@ -425,19 +461,19 @@ with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('spa
 with(this){return _c('h4',{attrs:{"id":"adding-profiles-to-favourites-fav"}},[_v("Adding profiles to favourites: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("fav")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#adding-profiles-to-favourites-fav","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"format-9"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-9","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"format-10"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-10","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("fav INDEX")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"example-command-9"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-9","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"example-command-10"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-10","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("fav 2")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"acceptable-values-9"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-9","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"acceptable-values-10"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-10","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("INDEX")]),_v(": Any number representing a positive integer (i.e. 1, 2, 3, …),\nless than or equal to the number of profiles the user currently has.")])}
@@ -446,13 +482,13 @@ with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lan
 with(this){return _c('blockquote',[_c('p',[_v("📝Note:")]),_v(" "),_c('p',[_v("INDEX refers to the index of the profile allocated to the specific profile in the current profile list.")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-9"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-9","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-10"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-10","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("Favourited Person: Name: Alex Yeoh; Role: Student; Contacts: [alexyeoh@example.com]; Courses: CS1101; Tutorials: CS1101/T03E\n")])])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-9"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-9","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-10"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-10","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('h4',{attrs:{"id":"for-invalid-index-2"}},[_v("For invalid index:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#for-invalid-index-2","onclick":"event.stopPropagation()"}})])}
@@ -476,19 +512,19 @@ with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lan
 with(this){return _c('h4',{attrs:{"id":"removing-a-profile-from-favourite-unfav"}},[_v("Removing a profile from favourite: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("unfav")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#removing-a-profile-from-favourite-unfav","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"format-10"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-10","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"format-11"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-11","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("unfav INDEX")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"example-command-10"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-10","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"example-command-11"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-11","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("unfav 2")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"acceptable-values-10"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-10","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"acceptable-values-11"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-11","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("INDEX")]),_v(": Any number representing a positive integer (i.e. 1, 2, 3, …),\nless than or equal to the number of profiles the user currently has.")])}
@@ -497,13 +533,13 @@ with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lan
 with(this){return _c('blockquote',[_c('p',[_v("📝Note:")]),_v(" "),_c('p',[_v("INDEX refers to the index of the profile allocated to the specific profile in the current profile list.")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-10"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-10","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-11"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-11","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("Unfavourited Person: Name: Alex Yeoh; Role: Student; Contacts: [alexyeoh@example.com]; Courses: CS1101; Tutorials: CS1101/T03E\n")])])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-10"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-10","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-11"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-11","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('h4',{attrs:{"id":"for-invalid-index-3"}},[_v("For invalid index:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#for-invalid-index-3","onclick":"event.stopPropagation()"}})])}
@@ -527,22 +563,22 @@ with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lan
 with(this){return _c('h5',{attrs:{"id":"help-page-help"}},[_v("Help page: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("help")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#help-page-help","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"format-11"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-11","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"format-12"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-12","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("help")])])}
 },function anonymous(
 ) {
-with(this){return _c('h4',{attrs:{"id":"example-command-11"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-11","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h4',{attrs:{"id":"example-command-12"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-12","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("help")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"acceptable-values-11"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-11","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"acceptable-values-12"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-12","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-11"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-11","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-12"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-12","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("Quick Guide: \n")]),_c('span',[_v("Adding a person: add --name NAME [--role ROLE1, ...]  [--contact CONTACT1, ...] [--course COURSECODE1/CLASS1-CLASS2-..., ...]\n")]),_c('span',[_v("Listing all persons: list\n")]),_c('span',[_v("Deleting a profile: delete INDEX\n")]),_c('span',[_v("Search by name: search NAME\n")]),_c('span',[_v("Search by role: search ROLE\n")]),_c('span',[_v("Search by course: search COURSE\n")]),_c('span',[_v("Search by tutorial class: search TUTORIAL\n")]),_c('span',[_v("Edit current profile by deleting current information: edit --delete\n")]),_c('span',[_v("Edit current profile by adding new information: edit --add\n")]),_c('span',[_v("Edit current profile by changing current information: edit --change\n")]),_c('span',[_v("Adding profiles to favourites: fav INDEX\n")]),_c('span',[_v("Refer to the User Guide for the detailed implementation.\n")])])])}
@@ -551,7 +587,7 @@ with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('spa
 with(this){return _c('p',[_v("A help window will pop out as shown: "),_c('a',{attrs:{"href":"/tp/images/HelpWindow.png"}},[_v("Help Window")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-11"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-11","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-12"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-12","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("This command only recognises "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("help")]),_v(" as the keyword.")])}
@@ -566,19 +602,19 @@ with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lan
 with(this){return _c('h4',{attrs:{"id":"editing-a-profile-edit"}},[_v("Editing a profile: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#editing-a-profile-edit","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"format-12"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-12","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"format-13"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-13","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit INDEX [--name NAME] [--role ROLE1, ...]  [--contact CONTACT1, ...] [--course COURSECODE1/CLASS1-CLASS2-..., ...]")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"example-command-12"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-12","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"example-command-13"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-13","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit 1 --name Aiken Dueet --role Student --contact @aikenduee --course CS2103T/Tut8, CS2101/G06, CS2100/Lab40-Tut30")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"acceptable-values-12"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-12","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"acceptable-values-13"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-13","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("INDEX")]),_v(": Any number representing a positive integer (i.e. 1, 2, 3, …), less than or equal to the number of profiles the user currently has.")])}
@@ -596,13 +632,13 @@ with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lan
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("COURSECODE")]),_v(": Any non-empty input of characters.")])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-12"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-12","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-13"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-13","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("You have edited person 1 in the profile to: \n")]),_c('span',[_v(" Name: Aiken Dueet; Role: Student; Contacts: [@aikendueet]; Courses: CS2103T, CS2101, CS2100; Tutorials: CS2103T/Tut8, CS2101/G06, CS2100/Lab40-Tut30\n")])])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-12"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-12","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-13"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-13","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('h5',{attrs:{"id":"for-invalid-index-4"}},[_v("For invalid index:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#for-invalid-index-4","onclick":"event.stopPropagation()"}})])}
@@ -626,25 +662,25 @@ with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lan
 with(this){return _c('h4',{attrs:{"id":"exiting-the-application-exit"}},[_v("Exiting the application: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("exit")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#exiting-the-application-exit","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"format-13"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-13","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"format-14"}},[_v("FORMAT:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#format-14","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("exit")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"example-command-13"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-13","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"example-command-14"}},[_v("EXAMPLE COMMAND:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#example-command-14","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("exit")])])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"acceptable-values-13"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-13","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"acceptable-values-14"}},[_v("ACCEPTABLE VALUES:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acceptable-values-14","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-13"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-13","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-success-14"}},[_v("EXPECTED OUTPUT ON SUCCESS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-success-14","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-13"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-13","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"expected-output-on-failure-14"}},[_v("EXPECTED OUTPUT ON FAILURE:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#expected-output-on-failure-14","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("This command only recognises "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("exit")]),_v(" as the keyword.")])}
@@ -683,6 +719,6 @@ with(this){return _c('h2',{attrs:{"id":"command-summary"}},[_v("Command summary"
 with(this){return _c('div',{staticClass:"table-responsive"},[_c('table',{staticClass:"markbind-table table table-bordered table-striped"},[_c('thead',[_c('tr',[_c('th',{staticStyle:{"text-align":"center"}},[_v("Action")]),_v(" "),_c('th',[_v("Format")]),_v(" "),_c('th',[_v("Example")])])]),_v(" "),_c('tbody',[_c('tr',[_c('td',{staticStyle:{"text-align":"center"}},[_c('strong',[_v("Help")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("help")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("help")])])]),_v(" "),_c('tr',[_c('td',{staticStyle:{"text-align":"center"}},[_c('strong',[_v("Add")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add --name NAME [--role ROLE1, ...]  [--contact CONTACT1, ...] [--course COURSECODE1/CLASS1-CLASS2-..., ...]")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add --name Aiken Dueet --role STUDENT --contact @aikendueet, aikendueet@gmail.com --course CS2103T/Tut8, CS2101/G06, CS2100/Lab40-Tut30")])])]),_v(" "),_c('tr',[_c('td',{staticStyle:{"text-align":"center"}},[_c('strong',[_v("List")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")])])]),_v(" "),_c('tr',[_c('td',{staticStyle:{"text-align":"center"}},[_c('strong',[_v("Delete")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete INDEX")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete 3")])])]),_v(" "),_c('tr',[_c('td',{staticStyle:{"text-align":"center"}},[_c('strong',[_v("Search")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find KEYWORD")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find CS2100")])])]),_v(" "),_c('tr',[_c('td',{staticStyle:{"text-align":"center"}},[_c('strong',[_v("Favourite")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("fav INDEX")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("fav 1")])])]),_v(" "),_c('tr',[_c('td',{staticStyle:{"text-align":"center"}},[_c('strong',[_v("Exit")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("exit")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("exit")])])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Fri, 3 Nov 2023, 9:14:50 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Fri, 3 Nov 2023, 9:15:25 GMT+8]")])])])}
 }];
   

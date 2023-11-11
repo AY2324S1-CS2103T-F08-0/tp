@@ -1,0 +1,22 @@
+@startuml
+
+skin rose
+
+title Autocomplete Feature
+
+
+start
+
+:User enters part of command;
+
+while () is ([user enters Tab])
+  :Search for commands starting with user's input;
+  if () then ([commands exist])
+  :Suggests next command in dialog box;
+  else ([else])
+  endif
+endwhile ([else])
+
+stop
+
+@enduml

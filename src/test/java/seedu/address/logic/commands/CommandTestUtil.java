@@ -17,14 +17,10 @@ import seedu.address.commons.core.index.Index;
 import seedu.address.logic.commands.exceptions.CommandException;
 import seedu.address.model.AddressBook;
 import seedu.address.model.Model;
-//import seedu.address.model.person.Contact;
 import seedu.address.model.person.Course;
-//import seedu.address.model.person.Name;
 import seedu.address.model.person.NameContainsKeywordsPredicate;
 import seedu.address.model.person.Person;
-//import seedu.address.model.person.Role;
 import seedu.address.model.person.Tutorial;
-import seedu.address.testutil.EditPersonDescriptorBuilder;
 
 /**
  * Contains helper methods for testing commands.
@@ -132,19 +128,6 @@ public class CommandTestUtil {
 
     public static final String PREAMBLE_WHITESPACE = "\t  \r  \n";
     public static final String PREAMBLE_NON_EMPTY = "NonEmptyPreamble";
-
-    public static final EditCommand.EditPersonDescriptor DESC_AMY;
-    public static final EditCommand.EditPersonDescriptor DESC_BOB;
-
-    static {
-        DESC_AMY = new EditPersonDescriptorBuilder().withName(VALID_NAME_AMY)
-                .withRoles(VALID_ROLE_STUDENT).withContacts(VALID_CONTACT_AMY)
-                .withCourses(VALID_COURSE_1.toString()).withFavourite(false).build();
-        DESC_BOB = new EditPersonDescriptorBuilder().withName(VALID_NAME_BOB)
-                .withRoles(VALID_ROLE_TA).withContacts(VALID_CONTACT_BOB)
-                .withCourses(VALID_COURSE_2.courseName, VALID_COURSE_3.courseName)
-                .withFavourite(false).build();
-    }
 
     /**
      * Executes the given {@code command}, confirms that <br>

@@ -1,0 +1,22 @@
+@startuml
+
+skin rose
+
+title FavList Feature
+
+
+start
+
+:User enters command for favlist;
+
+
+if () then ([syntax valid])
+    : Displays the number of favourited persons in the response box;
+    : Displays the profile of favourited persons;
+else ([syntax invalid])
+  endif
+
+stop
+
+@enduml
+

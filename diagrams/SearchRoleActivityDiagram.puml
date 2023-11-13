@@ -1,0 +1,21 @@
+@startuml
+
+skin rose
+
+title Search Role Feature
+
+
+start
+
+:User enters command 'searchrole' command with a ROLE;
+
+
+if () then ([syntax valid])
+    : Displays the number of persons in the filtered list in the response box;
+    : Displays the profile of filtered persons;
+else ([syntax invalid])
+  endif
+
+stop
+
+@enduml

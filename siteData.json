@@ -41,6 +41,7 @@
       "title": "Developer Guide",
       "headings": {
         "nusearch-developer-guide": "NUSearch Developer Guide",
+        "table-of-contents": "Table of Contents",
         "acknowledgements": "Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
@@ -53,7 +54,9 @@
         "implementation": "Implementation",
         "add-feature": "Add Feature",
         "list-feature": "List Feature",
+        "delete-feature": "Delete feature",
         "favourite-feature": "Favourite feature",
+        "unfavourite-feature": "Unfavourite feature",
         "favourite-list-feature": "Favourite List feature",
         "search-feature": "Search feature",
         "autocomplete-feature": "Autocomplete Feature",

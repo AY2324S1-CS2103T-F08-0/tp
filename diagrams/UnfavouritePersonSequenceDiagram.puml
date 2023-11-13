@@ -1,0 +1,79 @@
+@startuml
+!include style.puml
+skinparam ArrowFontStyle plain
+
+box Logic LOGIC_COLOR_T1
+participant ":LogicManager" as LogicManager LOGIC_COLOR
+participant ":AddressBookParser" as AddressBookParser LOGIC_COLOR
+participant ":UnfavouriteCommandParser" as UnfavouriteCommandParser LOGIC_COLOR
+participant "d:UnfavouriteCommand" as UnfavouriteCommand LOGIC_COLOR
+participant ":CommandResult" as CommandResult LOGIC_COLOR
+end box
+
+box Model MODEL_COLOR_T1
+participant ":Model" as Model MODEL_COLOR
+end box
+
+[-> LogicManager : execute("unfav 1")
+activate LogicManager
+
+LogicManager -> AddressBookParser : parseCommand("unfav 1")
+activate AddressBookParser
+
+create UnfavouriteCommandParser
+AddressBookParser -> UnfavouriteCommandParser
+activate UnfavouriteCommandParser
+
+UnfavouriteCommandParser --> AddressBookParser
+deactivate UnfavouriteCommandParser
+
+AddressBookParser ->UnfavouriteCommandParser : parse("1")
+activate UnfavouriteCommandParser
+
+create UnfavouriteCommand
+UnfavouriteCommandParser -> UnfavouriteCommand
+activate UnfavouriteCommand
+
+UnfavouriteCommand --> UnfavouriteCommandParser : d
+deactivate UnfavouriteCommand
+
+UnfavouriteCommandParser --> AddressBookParser : d
+deactivate UnfavouriteCommandParser
+
+'Hidden arrow to position the destroy marker below the end of the activation bar.
+UnfavouriteCommandParser -[hidden]-> AddressBookParser
+destroy UnfavouriteCommandParser
+
+AddressBookParser --> LogicManager : d
+deactivate AddressBookParser
+
+LogicManager -> UnfavouriteCommand : execute()
+activate UnfavouriteCommand
+
+UnfavouriteCommand -> Model : unfavouritePerson(personToUnfavourite)
+activate Model
+
+Model --> UnfavouriteCommand
+deactivate Model
+
+UnfavouriteCommand -> Model ++ : setPerson(personToUnfavourite, personToUnfavourite)
+return
+
+UnfavouriteCommand -> Model ++ : updateFilteredPersonList()
+return
+
+deactivate Model
+
+create CommandResult
+UnfavouriteCommand -> CommandResult
+activate CommandResult
+
+CommandResult --> UnfavouriteCommand
+deactivate CommandResult
+
+UnfavouriteCommand --> LogicManager : result
+deactivate UnfavouriteCommand
+
+[<--LogicManager
+deactivate LogicManager
+@enduml
